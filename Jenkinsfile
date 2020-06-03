@@ -53,7 +53,7 @@ stage ('Clean Workspace'){
 
 sh 'mvn sonar:sonar \
   -Dsonar.projectKey=org.sonarqube:sonar-scaning-maven-test-ucd \
-  -Dsonar.host.url=http://sonar:9000 \
+  -Dsonar.host.url=http://192.168.1.114:9000 \
   -Dsonar.login=15efc75c253bf705db000eeb606aacfa81fd8e30'
 
 // sh 'mvn sonar:sonar \
